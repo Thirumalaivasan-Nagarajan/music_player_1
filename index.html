@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="music-player">
+        <div class="player-header">
+            <h2>Spotify</h2>
+        </div>
+
+        <div class="player-body">
+            <div class="album-art">
+                <img src="image.jpg" alt="Album Art">
+            </div>
+
+            <div class="song-info">
+                <h3>Oorum Blood </h3>
+                <p>Sai Abhyankkar</p>
+            </div>
+
+            <div class="controls">
+                <img src="prev.png" class="prev">
+                <img src="play.png" class="play-pause">
+                <img src="next.png" class="next" class="next">
+            </div>
+
+            <div class="progress-bar-container">
+                <input type="range" class="progress-bar" min="0" max="100" value="0">
+            </div>
+
+            <div class="volume">
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" min="0" max="100" value="50">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
+</body>
+</html>
